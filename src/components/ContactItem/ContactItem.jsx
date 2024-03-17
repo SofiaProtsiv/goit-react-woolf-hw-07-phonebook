@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { deleteContacts, editContacts } from "../../redux/operations";
-import { Confirm } from "notiflix/build/notiflix-confirm-aio";
-import { Notify } from "notiflix/build/notiflix-notify-aio";
 
 import { Modal, Input, Button } from "antd";
 
